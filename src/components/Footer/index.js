@@ -1,8 +1,8 @@
 import styled from 'styled-components';
-import FacebookIcon from '@mui/icons-material/Facebook';
-import TwitterIcon from '@mui/icons-material/Twitter';
+// import FacebookIcon from '@mui/icons-material/Facebook';
+// import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import InstagramIcon from '@mui/icons-material/Instagram';
+// import InstagramIcon from '@mui/icons-material/Instagram';
 import { Bio } from '../../data/constants';
 
 const FooterContainer = styled.div`
@@ -25,11 +25,11 @@ const FooterWrapper = styled.footer`
   color: ${({ theme }) => theme.text_primary};
 `;
 
-const Logo = styled.h1`
-  font-weight: 600;
-  font-size: 20px;
-  color: ${({ theme }) => theme.primary};
-`;
+// const Logo = styled.h1`
+//   font-weight: 600;
+//   font-size: 20px;
+//   color: ${({ theme }) => theme.primary};
+// `;
 
 const Nav = styled.nav`
   width: 100%;
